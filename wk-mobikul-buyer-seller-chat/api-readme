@@ -1,0 +1,20 @@
+1. Api For Conversation Between buyer and seller
+Method: POST
+URL: http://192.168.15.254/marketplace-rma/wp-json/mobikul/v1/initilize-chat
+json:
+{
+    "sender_id":3,
+    "receiver_id":1,
+    "message":"hi there"
+}
+
+=============================-----------------------=====================================
+
+2.To Get Chat history
+Method: GET
+URl: http://192.168.15.254/marketplace-rma/wp-json/mobikul/v1/get-chat-history
+Json:
+{
+    "sender_id":3,
+    "receiver_id":1
+}
